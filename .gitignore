@@ -1,0 +1,67 @@
+# CTF Artifacts and Temporary Files
+*.pcap
+*.pcapng
+*.cap
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.so
+
+# Archives and compressed files (if they contain sensitive data)
+# Uncomment if needed:
+# *.zip
+# *.tar.gz
+# *.rar
+# *.7z
+
+# Executables and binaries (platform specific)
+*.exe
+*.dll
+*.bin
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Credentials and sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+credentials.txt
+passwords.txt
+secrets.txt
+
+# Node modules (if using Node.js tools)
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary directories
+tmp/
+temp/
