@@ -73,21 +73,3 @@ Link a la máquina en THM -> [Pickle Rick](https://tryhackme.com/room/picklerick
 * Puedes encadenar decodificados (base64) en una sola línea para ahorrar trabajo.
 * Ten plan B: la reverse shell funcionó en VirtualBox cuando UTM daba problemas. 
 
-# Cómo mejorar tu write-up (checklist para publicar)
-
-* Incluir sólo salidas relevantes de comandos (no todo).
-* Añadir screenshots: página web, gobuster hits, `sudo -l` output, prompt root (`id`).
-* Mostrar el contenido de los ficheros que son flags/“ingredientes”.
-* Explicar por qué cada step fue elegido (qué hipótesis se verificó y por qué).
-* Incluir mitigaciones sugeridas (p. ej. deshabilitar `sudo ALL` para `www-data`, permitir password auth solo si necesario, no exponer credenciales en el HTML).
-* Añadir tiempo invertido / dificultades encontradas (ayuda a quien lea a estimar esfuerzo). 
-
----
-
-Si quieres, hago ahora cualquiera de estas tareas (elige una y la hago de inmediato):
-
-* Resumirlo aún más en 6 líneas para pegar en tu blog.
-* Convertir el resumen en una plantilla Markdown lista para publicar en Obsidian (con secciones: objetivo, enumeración, explotación, root, mitigaciones).
-* Extraer y formatear los comandos clave y outputs en un bloque de código listo para documentación.
-
-Dime cuál prefieres y lo genero ya.
