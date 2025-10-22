@@ -1,2 +1,4 @@
 # TryHackMe
-Repositorio dedicado al write-up de CTF en la plataforma TryHackMe
+Repositorio dedicado al write-up de CTF en la plataforma TryHackMe.
+
+TryHackMe (THM) es una plataforma online para aprender ciberseguridad mediante laboratorios prácticos y retos tipo CTF (Capture The Flag). Ofrece rutas de aprendizaje guiadas (“Learning Paths”), salas/“rooms” prácticas con máquinas virtuales en la nube y ejercicios paso a paso que cubren desde conceptos básicos (Linux, redes, fundamentos de pentesting) hasta temas avanzados (forense, malware, red team). La plataforma tiene contenido gratuito y un plan Premium que desbloquea caminos y salas adicionales, acceso ampliado al “AttackBox” y funciones para empresas/teams. THM está pensada tanto para principiantes como para profesionales que quieran practicar en entornos reproducibles y accesibles desde el navegador. 
