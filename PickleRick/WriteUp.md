@@ -3,6 +3,7 @@
 Máquina con puerto **22 (SSH)** y **80 (HTTP)**. Se encontró un usuario en el código fuente web (`R1ckRul3s`) y una pista en `robots.txt` (`Wubbalubbadubdub`). No había autenticación por contraseña en SSH (solo llave pública). Se exploró la web (gobuster, assets), se intentó esteganografía sin éxito, se autenticó en un panel web con las credenciales encontradas, ese panel permitía ejecutar comandos como `www-data`. `www-data` podía usar `sudo` sin contraseña → se lanzó `sudo bash` → root → leer los ficheros con los “ingredientes”. Se consiguió reverse shell con `python3` cuando hizo falta. 
 
 Link a la máquina en THM -> [Pickle Rick](https://tryhackme.com/room/picklerick)
+Link al write-up completo -> [Pickle Rick - Write Up](https://github.com/DanielDominguezBender/TryHackMe/blob/main/PickleRick/PickleRick.pdf)
 
 # Flujo paso a paso (resumido)
 
